@@ -1,3 +1,7 @@
+/*
+*	Arquivo onde são definidas os textos que serão substituidos pelas dinâmicas (cufon ou sifr)
+*/
+
 //<![CDATA[
 	/* Replacement calls. Please see documentation for more information. */
 
