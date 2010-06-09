@@ -1,0 +1,18 @@
+/* pagination */
+.pagination{margin:20px 0 0;font-size:11px;float:left;clear:both}
+
+.pagination .total-pages,.pagination .pagination-controllers{float:left}
+.pagination .total-pages em{border:1px solid #ccc;margin:0 5px 0 0;padding:3px 8px 3px;display:block;background:#f0efef;color:#555!important;float:left;}
+
+.pagination .pagination-controllers{width:300px}
+
+.pagination .pagination-controllers ol{width:auto;margin:0!important}
+.pagination .pagination-controllers li{margin:0!important;display:block;float:left}
+.pagination .pagination-controllers span,
+.pagination .pagination-controllers a,
+.pagination .pagination-controllers .current{border:1px solid #ccc;margin:0 5px 0 0;padding:3px 4px;background:#f0efef;color:#555;display:block;float:left;text-decoration:none}
+.pagination .pagination-controllers a:hover,
+.pagination .pagination-controllers .current{margin:0 5px 0 0!important;background:#305987;border-color:#02356e;color:#fff}
+.pagination .pagination-controllers .prev_page a{width:17px;height:20px;padding:0;background:url(../images/icpaginacao.gif) no-repeat;display:block;text-indent:-999em}
+.pagination .pagination-controllers .next_page a{width:17px;height:20px;padding:0;background:url(../images/icpaginacao.gif) no-repeat 0 -45px;display:block;text-indent:-999em}
+/* end pagination */
