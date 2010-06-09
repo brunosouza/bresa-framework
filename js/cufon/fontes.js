@@ -1,10 +1,10 @@
 /*
-*	Arquivo onde são definidas os textos que serão substituidos pelas dinâmicas (cufon ou sifr)
-*/
+ - Arquivo onde são definidas os textos que serão substituidos pelas dinâmicas (cufon ou sifr)
+ */
 
 //<![CDATA[
 	/* Replacement calls. Please see documentation for more information. */
-
+/*
 	if(typeof sIFR == "function"){
 
 	// This is the preferred "named argument" syntax
@@ -14,8 +14,10 @@
 	sIFR.replaceElement(named({sSelector:".title span", sFlashSrc:"swf/ozone.swf", sColor:"#b30000", sLinkColor:"#3b723e", nPaddingTop:0, nPaddingBottom:0, sFlashVars:"textalign=left&offsetTop=0", sWmode:"transparent"}));
 
 	};
-
+*/
 	//]]>
-	
-	Cufon.replace('.convidarAmigos h3, .festas h3, .passos li, .legenda h4,.detalhesFesta .title h3, .colunasAmigos h5,.deixeMensagem h4', { fontFamily: 'Arial' });
-	Cufon.replace('.content .box.rankingTop ul li span, .rankingLiga ul li span, table tbody td.colocacao', { fontFamily: 'Arial' });
+/*
+ -  Para saber mais sobre cufon, acesse http://wiki.github.com/sorccu/cufon/
+ */
+
+Cufon.replace('.cufon');
